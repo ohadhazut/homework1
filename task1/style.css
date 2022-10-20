@@ -1,0 +1,320 @@
+.mediaBlock {
+    height: 300px;
+    opacity: 1;
+
+}
+
+.headerBlock {
+    display: flex;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    font-size: 13px;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    direction: ltr;
+
+
+}
+
+.imgBlock {
+    object-fit: cover;
+    height: 400px;
+    background-image: url("media/coverimage.jpeg");
+    background-size: cover;
+    opacity: 0.8;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.logoBlock {
+    flex: 1;
+    order: 2;
+
+}
+
+.menuBlock {
+    flex: 1;
+    order: 1;
+    margin-top: 20px;
+}
+
+.servicesBlock {
+
+    height: 300px;
+    display: flex;
+    background-color: white;
+    justify-content: center;    
+}
+
+p {
+    text-align: center;   
+}
+
+.aboutBlock {
+    display: flex;
+    height: 400px;
+}
+
+.coverBlock {
+    flex: 1;
+    background-image: url("media/bake33.jpg"); 
+    order: 1;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.contentBlock {
+    flex: 1;
+    background-color: #e5e5e5;
+    order: 2;
+    margin-left: 90px;
+}
+
+.serviceItem {
+    box-shadow: 1px 1px 7px;
+    height: 60px;  
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    opacity: 0.9;
+    background-color: white;
+    transition: .5s all ease-in-out;
+}
+
+.serviceItem:hover {
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.contentBlock {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 8pt;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header2 {
+    text-align: center;
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 1px;
+}
+
+.smBlock {
+    height: 50px;   
+}
+
+.footerBlock {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+    opacity: 0.8;
+}
+
+
+.btnBlock {    
+    text-align: center;
+    margin-bottom: 150px;   
+}
+
+.container {
+    height: 400px;
+
+}
+
+button {
+    border-radius: 10px;
+    background-color: #5f3226;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+
+button:hover {
+    color: rgb(169, 169, 61);
+}
+
+.stripeBlock {
+    background-color: #5f3226;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.headBlock {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    padding-top: 100px;
+
+}
+
+#menuHeadBlock {
+    font-size: 20px;
+}
+
+#menuParaBlock {
+    font-size: 13px;
+}
+
+.mainMenuBlock {
+
+    display: flex;
+    justify-content: center; 
+    height: 300px;
+    gap: 50px;
+
+}
+
+.menuItem {
+
+    height: 300px;
+
+}
+
+#menuheader2 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.littleMenuItem {
+
+    text-align: center;
+    height: 300px;
+    transition: .5s all ease-in-out;
+
+}
+
+.littleMenuItem:hover {
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+
+.imgItem2 {
+    max-width: 150px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+
+.spanItem2 {
+
+    border-top: solid 1px black;
+}
+
+.contactMain {
+
+    display: flex;
+    height: 600px;
+}
+
+.contactImg {
+    background-image: url("media/bigcake.jpeg");
+    object-fit: cover;
+    background-size: cover;   
+    flex: 1;
+}
+
+
+.contactInfo {
+    background-color: #e5e5e5;
+    flex: 1;
+}
+
+.infoItem {
+    padding-top: 75px;
+    width: 50%;
+    padding-right: 15px;
+}
+
+input {
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.aboutMain {
+    height: 500px;
+    background-color: #5f3226;
+    text-align: center;
+}
+
+.imgSlot {
+    padding-top: 20px;
+}
+
+.aboutText {
+    height: 500px;
+    background-color: #5f3226;
+}
+
+.textHolder {
+
+    color: white;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.articleText {
+    color: #e5e5e5;
+    text-align: center;
+    padding-bottom: 100px;
+    height: 100px;
+
+}
+
+.articleBlock {
+    padding-top: 50px;
+    height: 150px;
+    background-color: #5f3226;
+}
+
+.articleBlock1 {
+    background-color: #5f3226;
+    text-align: center;
+}
+
+#articleText1 {
+    text-decoration: underline;
+}
